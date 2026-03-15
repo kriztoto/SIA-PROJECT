@@ -14,7 +14,7 @@ Teacher Account
 
 | Last Name      | Student ID |
 |----------------|------------|
-| Longa          | s2601001   | C123456
+| Longa          | s2601001   | 
 | Delos Santos   | s2601002   |
 | Batac          | s2601003   |
 | Paulin         | s2601004   |
@@ -38,3 +38,7 @@ Teacher Account
 | Kirk           | s2601027   |
 | Hawking        | s2601026   |
 | Yagami         | s2601027   |
+
+Password Changes
+	s2601001
+	C123456
