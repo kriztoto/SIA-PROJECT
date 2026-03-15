@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("includes/db.php");
+include("configs/db.php");
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
@@ -54,7 +54,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
 
         body {
-            background-image: url('bg_green.jpg');
+            background-image: url('image/bg_green.jpg');
             background-size: cover; 
             background-size: contain;
             background-repeat: no-repeat;

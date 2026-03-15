@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 header('Content-Type: application/json');
 
 session_start();
-include("includes/db.php");
+include("configs/db.php");
 
 // Check if database connection exists
 if (!isset($conn) || $conn->connect_error) {

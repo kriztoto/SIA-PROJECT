@@ -9,7 +9,7 @@ ini_set('error_log', 'C:\xampp\php\logs\php_error_log');
 
 header('Content-Type: application/json');
 
-include("includes/db.php");
+include("configs/db.php");
 
 if (!isset($conn) || $conn->connect_error) {
     echo json_encode(['success' => false, 'message' => 'Database connection failed']);

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("includes/db.php");
+include("configs/db.php");
 
 $category_id = isset($_GET['category_id']) 
     ? (int)$_GET['category_id'] 

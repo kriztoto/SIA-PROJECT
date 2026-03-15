@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("includes/db.php");
+include("configs/db.php");
 
 // Check if user is teacher
 if(!isset($_SESSION["user_id"]) || $_SESSION["role"] != "teacher"){
