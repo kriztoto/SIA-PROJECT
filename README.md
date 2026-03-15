@@ -9,6 +9,10 @@ Teacher Account
 	teacher
 	123456
 
+Password Changes
+
+	s2601001
+	C123456
 
 # Student List
 
@@ -38,8 +42,3 @@ Teacher Account
 | Kirk           | s2601027   |
 | Hawking        | s2601026   |
 | Yagami         | s2601027   |
-
-Password Changes
-
-	s2601001
-	C123456
